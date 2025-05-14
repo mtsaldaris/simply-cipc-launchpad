@@ -5,23 +5,23 @@ const HowItWorks = () => {
   const steps = [
     {
       number: "01",
-      title: "Submit Your Details",
-      description: "Fill out our simple form with your basic information to get started.",
+      title: "Onboard Your Firm",
+      description: "Sign up and create your accounting firm profile with Simply CIPC - a one-time process.",
     },
     {
       number: "02",
-      title: "Choose Your Package",
-      description: "Select the registration package that best suits your business needs.",
+      title: "Add Your Client Companies",
+      description: "Easily import your client portfolio through our bulk upload system or individually.",
     },
     {
       number: "03",
-      title: "Documentation Processing",
-      description: "We handle all the paperwork and submit your application to CIPC.",
+      title: "Automated Data Collection",
+      description: "Our system collects information from beneficial owners through WhatsApp and web interfaces.",
     },
     {
       number: "04",
-      title: "Get Registered",
-      description: "Receive your company registration documents and start operating your business legally.",
+      title: "Seamless CIPC Submissions",
+      description: "We handle all CIPC filings, payments, and confirmations through our direct API integration.",
     },
   ];
 
@@ -33,7 +33,7 @@ const HowItWorks = () => {
             How Simply CIPC Works
           </h2>
           <p className="text-lg text-gray-600 max-w-3xl mx-auto">
-            Our straightforward process ensures a smooth and hassle-free company registration experience.
+            Our platform streamlines CIPC compliance for accounting firms, reducing admin work by up to 99%.
           </p>
         </div>
 

@@ -7,17 +7,17 @@ const Hero = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center">
         <div className="md:w-1/2 mb-10 md:mb-0 animate-fade-up">
           <h1 className="text-4xl md:text-5xl font-bold text-cipc-darkBlue mb-4 leading-tight">
-            Fast, Simple Company Registration in South Africa
+            Compliance Automation for South African Accounting Firms
           </h1>
           <p className="text-lg text-gray-600 mb-8">
-            Register your company with confidence through our streamlined process. No hassle, no confusion - just efficient CIPC registration.
+            Simply CIPC streamlines beneficial ownership filings and annual returns to CIPC, reducing admin burden for accountants by up to 99%.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <Button 
               className="bg-cipc-blue hover:bg-cipc-lightBlue text-white text-lg py-6 px-8"
               onClick={() => document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' })}
             >
-              Register Interest
+              Join Our Early Access
             </Button>
             <Button 
               variant="outline" 
@@ -32,23 +32,23 @@ const Hero = () => {
           <div className="relative">
             <div className="w-64 h-64 md:w-80 md:h-80 bg-cipc-blue rounded-full opacity-10 absolute -top-6 -left-6"></div>
             <div className="bg-white p-8 rounded-md shadow-lg relative z-10 max-w-md">
-              <h3 className="text-xl font-semibold text-cipc-darkBlue mb-4">Why Choose Simply CIPC?</h3>
+              <h3 className="text-xl font-semibold text-cipc-darkBlue mb-4">Designed for Accounting Firms</h3>
               <ul className="space-y-3">
                 <li className="flex items-start">
                   <div className="bg-cipc-blue rounded-full w-5 h-5 mt-1 mr-3"></div>
-                  <span>Fast & efficient company registration</span>
+                  <span>Automate CIPC beneficial ownership filings</span>
                 </li>
                 <li className="flex items-start">
                   <div className="bg-cipc-blue rounded-full w-5 h-5 mt-1 mr-3"></div>
-                  <span>Expert guidance through every step</span>
+                  <span>Streamlined annual return submissions</span>
                 </li>
                 <li className="flex items-start">
                   <div className="bg-cipc-blue rounded-full w-5 h-5 mt-1 mr-3"></div>
-                  <span>Affordable, transparent pricing</span>
+                  <span>Centralized dashboard for all clients</span>
                 </li>
                 <li className="flex items-start">
                   <div className="bg-cipc-blue rounded-full w-5 h-5 mt-1 mr-3"></div>
-                  <span>Hassle-free documentation handling</span>
+                  <span>Generate commission while reducing workload</span>
                 </li>
               </ul>
             </div>
